@@ -1,0 +1,93 @@
+/*.internalpage-app.barrel .app-banner .app-background{
+    background: url(../images/barrel-banner-background.jpg) no-repeat;
+    background-size: cover; width:100%;
+    height: 100%;}*/
+.success-stories-inner-footer.brezza .top-link a{background-color: #f87a52;}
+.success-stories-inner-footer.reezer .top-link a{background-color: #5f0bbb;}
+.success-stories-inner-footer.pinkbook .top-link a{background-color: #e5136a;}
+.success-stories-inner-footer.backyard .top-link a{background-color: #13c5d3;}
+.projects-section .project-detail-section .project-detail.oryxHub {
+    background: #282829;
+    background: -moz-linear-gradient(-45deg, #282829 0, #454546 100%);
+    background: -webkit-linear-gradient(-45deg, #282829 0, #454546 100%);
+    background: linear-gradient(135deg, #282829 0, #454546 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#282829', endColorstr='#454546', GradientType=1)
+}
+.projects-section .project-detail-section .project-detail.ant {
+    background: #d1234d;
+    background: -moz-linear-gradient(-45deg, #d1234d 0, #e2345e 100%);
+    background: -webkit-linear-gradient(-45deg, #d1234d 0, #e2345e 100%);
+    background: linear-gradient(135deg, #d1234d 0, #e2345e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1234d', endColorstr='#e2345e', GradientType=1)
+}
+
+
+
+
+.app-logo{ text-align: left; }
+.goodfirms-wrap{ text-align: center; margin:50px 0 0 0 }
+.internalpage-app.ant .app-banner .app-background{
+    background: url(../images/ant-banner-background.jpg) no-repeat;
+    background-size: cover; width:100%;
+    height: 100%;}
+
+.internalpage-app.oryxhub .app-banner .app-background{
+    background: url(../images/oryxhub-banner-background.jpg) no-repeat;
+    background-size: cover; width:100%;
+    height: 100%;}
+
+
+.success-stories-inner-footer.ant .next-project-link{background-image: url(../images/ant-footer-bg.jpg); background-size: 100%; background-position: center;background-color: #d2234e;}
+.success-stories-inner-footer.ant .top-link a{background-color:#d2234e;}
+.success-stories-inner-footer.oryxhub .next-project-link{background-image: url(../images/oryxhub-footer-bg.jpg); background-size: 100%; background-position: center;background-color: #28282a;}
+.success-stories-inner-footer.oryxhub .top-link a{background-color:#28282a;}
+.projects-section .project-list-section .project-list-outer{  counter-reset: item;}
+.projects-section .project-list-section .project-list-outer ul li span::before {content: counter(item, decimal-leading-zero) " ";  counter-increment: item;}
+
+
+/*.success-stories-inner-footer.barrel .next-project-link{background-image: url(../images/barrel-footer-bg.jpg); background-size: 100%; background-position: center;background-color: #fdb913;}
+.success-stories-inner-footer.barrel .top-link a{background-color:#fdb913;}
+
+/*coming soon page */
+.comming-soon-text{font-size: 38px; font-weight: bold;}
+.comming-soon-text small{font-size: 0.6em; font-weight: 300;}
+
+.projects-section .project-detail-section .project-detail.nielsen {background:url(../images/nielsen-bg.jpg) no-repeat 0 0 #27cdfd;}
+.projects-section .project-detail-section .project-detail.nielsen .project-img{top:0; bottom: 0px; display: flex; align-items: center;width: auto;}
+
+.projects-section .project-detail-section .project-detail.cococola { background: #c7040f;
+background: -moz-linear-gradient(left, #c7040f 0%, #f02730 100%);
+background: -webkit-linear-gradient(left, #c7040f 0%,#f02730 100%);
+background: linear-gradient(to right, #c7040f 0%,#f02730 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7040f', endColorstr='#f02730',GradientType=1 );}
+.projects-section .project-detail-section .project-detail.cococola .project-img{top:0; bottom: 0px; display: flex; align-items: center;width: auto;}
+.projects-section .project-detail-section .project-detail.unilever-food {background: url(../images/unilever-food-bg.jpg) no-repeat 0 0 #f97000;}
+.projects-section .project-detail-section .project-detail.unilever-food .project-img{top:0; bottom: 0px; display: flex; align-items: center;width: auto;}
+
+@media(max-width: 1600px){
+    .projects-section .project-detail-section .project-detail.nielsen .project-img img, 
+    .projects-section .project-detail-section .project-detail.cococola .project-img img,
+    .projects-section .project-detail-section .project-detail.unilever-food .project-img img{width: 400px; }
+    .comming-soon-text{font-size: 26px;}
+
+}
+@media(max-width:1279px){
+    .projects-section .project-detail-section .project-detail.nielsen .project-img img, 
+    .projects-section .project-detail-section .project-detail.cococola .project-img img,
+    .projects-section .project-detail-section .project-detail.unilever-food .project-img img{width: 300px; }
+    .comming-soon-text{font-size: 26px;}
+    .projects-section .project-detail-section .project-detail .project-description, .projects-section .project-list-section .project-list-outer ul li .project-name{font-size: 17px;}
+
+}
+@media(max-width:1023px){
+    .projects-section{padding-top:85px;}
+    }
+
+
+ @media(max-width:767px){
+    .projects-section .project-detail-section .project-detail.nielsen .project-img img, 
+    .projects-section .project-detail-section .project-detail.cococola .project-img img,
+    .projects-section .project-detail-section .project-detail.unilever-food .project-img img{display: none; }
+    }   
+
+/*end here*/
