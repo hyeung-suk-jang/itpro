@@ -1,49 +1,9 @@
-#preloader,body,body .wrapper,body .wrapper .internalpage-app,html{height:100%}
-@font-face{font-family:FaktProSoft;src:url(../fonts/FaktSoftPro-Blond.eot);src:url(../fonts/FaktSoftPro-Blondd41d.eot?#iefix) format("embedded-opentype"),url(../fonts/FaktSoftPro-Blond.woff) format("woff"),url(../fonts/FaktSoftPro-Blond.ttf) format("truetype");font-weight:300;font-style:normal}
-@font-face{font-family:FaktProSoft;src:url(../fonts/FaktSoftPro-Normal.eot);src:url(../fonts/FaktSoftPro-Normald41d.eot?#iefix) format("embedded-opentype"),url(../fonts/FaktSoftPro-Normal.woff) format("woff"),url(../fonts/FaktSoftPro-Normal.ttf) format("truetype");font-weight:400;font-style:normal}
-@font-face{font-family:FaktProSoft;src:url(../fonts/FaktSoftPro-Medium.eot);src:url(../fonts/FaktSoftPro-Mediumd41d.eot?#iefix) format("embedded-opentype"),url(../fonts/FaktSoftPro-Medium.woff) format("woff"),url(../fonts/FaktSoftPro-Medium.ttf) format("truetype");font-weight:500;font-style:normal}
-body{font-family:FaktProSoft, 'NanumSquare',"Helvetica Neue",sans-serif;letter-spacing:.4px;font-weight:300;overflow-x:hidden!important}
-b,strong{font-weight:500!important}
-a,a:focus,a:hover{color:#4c525a}
-@font-face{font-family:mv_boliregular;src:url(../fonts/mvboli-webfont.eot);src:url(../fonts/mvboli-webfontd41d.eot?#iefix) format("embedded-opentype"),url(../fonts/mvboli-webfont.woff2) format("woff2"),url(../fonts/mvboli-webfont.woff) format("woff"),url(../fonts/mvboli-webfont.ttf) format("truetype"),url(../fonts/mvboli-webfont.svg#mv_boliregular) format("svg");font-weight:400;font-style:normal}
-.container{padding-right:15px;padding-left:15px}
-iframe[name=google_conversion_frame]{position:absolute;bottom:0}
-*{box-sizing:border-box}
-h1{margin:.67em 0}
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}
-.navigation_left ul li>a,.navigation_right ul li>a{line-height:2;font-weight:500;color:#fff;text-decoration:none}
-.h1,.h2,.h3,h1,h2,h3{margin-top:20px;margin-bottom:10px}
-.h1,h1{font-size:36px}
-a:active,a:hover{text-decoration:none}
-p{margin:0 0 10px}
-#preloader{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;background-color:#FC732B;z-index:9999}
-#status,.logo-loader,.spinner{position:absolute}
-#status{width:200px;height:200px;left:50%;top:50%;background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px}
-#intercom-container .intercom-app .intercom-launcher-frame{background:#fc732b!important}
-.spinner{margin:10px auto 0;width:100%;text-align:center;bottom:-40px}
-#status.logo-loader-outer,.logo{margin-left:-65px;text-align:center;box-shadow:0 0 5px 3px rgba(0,0,0,.3)}
-.spinner>div{width:18px;height:18px;border-radius:100%;display:inline-block;-webkit-animation:bouncedelay 1.4s infinite ease-in-out;animation:bouncedelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both;background:#fff}
-.section-title.active h2.active_text{color:#fc732b}
-.spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}
-.spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}
-
-@-webkit-keyframes bouncedelay {
-    0%,
-    100%,
-    80% {
-        -webkit-transform: scale(0)
-    }
-    40% {
-        -webkit-transform: scale(1)
-    }
-=======
 #preloader,
 body,
 body .wrapper,
 body .wrapper .internalpage-app,
 html {
     height: 100%
->>>>>>> a43ef286c4dfa65790852b43229b59587948ddb0
 }
 
 @font-face {
@@ -71,7 +31,7 @@ html {
 }
 
 body {
-    font-family: FaktProSoft, "Helvetica Neue", sans-serif;
+    font-family: FaktProSoft, 'NanumSquare', "Helvetica Neue", sans-serif;
     letter-spacing: .4px;
     font-weight: 300;
     overflow-x: hidden!important
@@ -423,7 +383,7 @@ p {
 }
 
 .logo_inner {
-    background: url(../images/logo_itpro.png) center top no-repeat;
+    background: url(../images/logo.png) center top no-repeat;
     width: 90px;
     height: 111px;
     margin: 0 auto
