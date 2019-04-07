@@ -383,10 +383,11 @@ p {
 }
 
 .logo_inner {
-    background: url(../images/logo.png) center top no-repeat;
+    background: url(../images/logo_itpro.png) center top no-repeat;
     width: 90px;
-    height: 111px;
-    margin: 0 auto
+    height: 90px;
+    margin: 0 auto;
+    background-size: 100%;
 }
 
 .header_outer.scrolled .logo_inner {
