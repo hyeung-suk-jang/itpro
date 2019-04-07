@@ -96,7 +96,7 @@ h6 {
 .navigation_right ul li>a {
     line-height: 2;
     font-weight: 500;
-    color: #fff;
+    color: black;
     text-decoration: none
 }
 
@@ -395,7 +395,8 @@ p {
 }
 
 .navigation {
-    padding-top: 5px
+    padding-top: 5px;
+    color: black;
 }
 
 .navigation_left {
@@ -432,7 +433,7 @@ a:focus {
 .navigation_left ul li.active>a,
 .navigation_left ul li>a:hover {
     border: 0;
-    border-bottom: 2px solid #fff
+    border-bottom: 2px solid black;
 }
 
 .navigation_right {
@@ -470,7 +471,7 @@ a:focus {
 .navigation_right ul li.active>a,
 .navigation_right ul li>a:hover {
     border: 0;
-    border-bottom: 2px solid #fff
+    border-bottom: 2px solid black;
 }
 
 .navigation .inactive {

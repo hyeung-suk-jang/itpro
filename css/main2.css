@@ -1,0 +1,49 @@
+.triangle-outer {
+    background: url(../images/hectagon.png);
+    height: 577px
+}
+
+.base-triangle {
+    border-bottom: 0;
+    border-right: 0
+}
+
+.main-circle .service-content ul {
+    font-weight: 500
+}
+
+.main-circle .service-content {
+    top: 30px !important
+}
+
+.service-circle.red .circle div span {
+    background: url(../images/service-circle-triangle-small-red.png) 55% center no-repeat
+}
+
+.map {
+    background: #ebebeb;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+.map iframe {
+    margin: 0 auto;
+    border: 0
+}
+
+.videoback {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    background: #489292;
+    padding-top: 100px;
+}
+
+#portfolio,
+#estimate {
+    width: 100%;
+    height: 100%;
+}

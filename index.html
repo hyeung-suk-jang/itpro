@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!--  <link href="css/circle.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/main2.css">
     <link rel="stylesheet" href="css/style-custom.css">
     <link rel="stylesheet" href="sthree/css/odometer-theme-minimal.css">
     <script defer src='../www.google.com/recaptcha/api.js'></script>
@@ -55,15 +55,13 @@
                     <div class="navigation_left">
                         <ul>
                             <li><a href="#service" title="service info">서비스소개</a></li>
-                            <li><a href="#member" title="member info">멤버소개</a></li>
-                            <li><a href="#introduce" title="introduce">우리는</a></li>
+                            <li><a href="#portfolio" title="Review Our App Success Stories">포트폴리오</a></li>
                         </ul>
                     </div>
                     <div class="navigation_right">
                         <ul>
-                            <li><a href="#portfolio" title="Review Our App Success Stories">포트폴리오</a></li>
-                            <li><a href="blog/index.html" title=" Be Up-to-Date with Our Blog Posts">견적요청</a></li>
-                            <li><a href="contact-london.html" title="Call Us or Drop an Email">오시는 길</a></li>
+                            <li><a href="#estimate" title=" Be Up-to-Date with Our Blog Posts">견적요청</a></li>
+                            <li><a href="#map" title="Call Us or Drop an Email">오시는 길</a></li>
                         </ul>
                     </div>
                 </div>
@@ -111,12 +109,15 @@
             </div>
         </div>
     </div>
-    <!--동영상
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ozoHGbJzF5s?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    -->
+    <!--동영상-->
+    <div class="videoback">
+        <video id="playvod" loop="loop" autoplay="autoplay" width="80%" height="80%">
+            <source  src="video/0402.mp4" type="video/mp4" />
+        </video>
+    </div>
 
 
-    <div class=" " id="services">
+    <div class=" " id="service">
         <div class="services-graphic-outer">
             <!-- 위에 마진값 추가-->
             <div class="triangle-outer wow fadeIn" data-wow-offset="150">
@@ -278,9 +279,14 @@
             </div>
         </div>
     </div>
+    <!--포트폴리오-->
+    <div id="portfolio">
 
+    </div>
+    <!--견적요청-->
+    <div id="estimate"></div>
 
-    <div class="map">
+    <div class="map" id="map">
         <h1>오시는길</h1>
         <iframe src="http://soridive.gq:5021/itpro/kakao_map_marker.html" width="500" height="400"></iframe>
     </div>
@@ -400,6 +406,5 @@ ITPRO : 보유기술
 아이폰
 -->
 </body>
-
 
 </html>
