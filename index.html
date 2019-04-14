@@ -284,7 +284,19 @@
 
     </div>
     <!--견적요청-->
-    <div id="estimate"></div>
+    <div id="estimate">
+        <form name="f1" action="send.php" method="post"  enctype="multipart/form-data">
+            작성자 : <input type='text' name='username' id='username'><br> 
+            핸드폰 : <input type='text' name='userhp1' id='userhp1' size=3>-<input type='text' name='userhp2' id='userhp2' size=4>-
+            <input type='text' name='userhp3' id='userhp3' size=4><br> 
+            이메일 : <input type='text' name='useremail' id='useremail'> 
+            제목 : <input type='text' name='title' id='title'><br> 
+            내용 :
+            <textarea cols="50" rows="20" name='contents' id='contents'></textarea><br> 
+            첨부파일 : <input type='file' name="attachfile">
+            <input type='button' value="전송" id="btnsend">
+        </form>
+    </div>
 
     <div class="map" id="map">
         <h1>오시는길</h1>
@@ -295,7 +307,6 @@
 
 
     <script src="js/jquery.min1.11.3.js"></script>
-
     <script defer src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/stretchy.min.js" data-filter=".foo, .foo *"></script>
@@ -313,6 +324,52 @@
     <script defer src="../control.mockingfish.com/js/015715.html"></script>
 
     <script>
+        $(function() {
+            $("#btnsend").click(function() {
+                //유효성검사.
+                if(!$("#username").val()){
+                    alert('작성자를 입력해주세요');
+                    $("#username").focus();
+                    return false;
+                }
+                if(!$("#userhp1").val()){
+                    alert('핸드폰번호 첫자리를 입력해주세요');
+                    $("#userhp1").focus();
+                    return false;
+                }
+                if(!$("#userhp2").val()){
+                    alert('핸드폰번호 둘째자리를 입력해주세요');
+                    $("#userhp2").focus();
+                    return false;
+                }
+                if(!$("#userhp3").val()){
+                    alert('핸드폰번호 세째자리를 입력해주세요');
+                    $("#userhp3").focus();
+                    return false;
+                }
+                if(!$("#useremail").val()){
+                    alert('이메일 정보를 입력해주세요');
+                    $("#useremail").focus();
+                    return false;
+                }
+                
+                if (!$("#title").val()) {
+                    alert('제목을 입력해주세요');
+                    $("#title").focus();
+                    return false;
+                }
+
+                //!: ""==false
+                if (!$("#contents").val()) {
+                    alert('내용을 입력해주세요');
+                    $("#contents").focus();
+                    return false;
+                }
+
+                f1.submit();
+            });
+        });
+
         (new WOW).init(), $("#contactusForm").click(function() {
                 username = $.trim($("#username").val()), emailid = $.trim($("#email").val()), content = $.trim($(
                     "#contents").val());
